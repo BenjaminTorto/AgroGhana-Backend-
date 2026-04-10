@@ -2,11 +2,7 @@ node_modules
 dist
 .env
 .env.save
-*.js
-!jest.config.js
 uploads/*
 !uploads/.gitkeep
 agroghana-backend/
-server.js
-test-bcrypt.ts
 src/website\ backend
