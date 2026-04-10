@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES2020",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "ignoreDeprecations": "5.0",
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
     "strict": false,
-    "rootDir": "src",
-    "outDir": "./dist"
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmitOnError": false
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
